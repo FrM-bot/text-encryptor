@@ -39,7 +39,7 @@ $buttonEncrypt.addEventListener('click', (e) => {
     if (!($input instanceof HTMLTextAreaElement)) {
         return alert('Error: $input is not an HTMLTextAreaElement')
     }
-    const text = $input.value
+    const text = $input.value.toLocaleLowerCase()
     
     const textEncrypted = text.replace(/([aeiou])/g, (match) => Hash[match])
 
@@ -57,7 +57,7 @@ $buttonDecrypt.addEventListener('click', (e) => {
         return alert('Error: $input is not an HTMLTextAreaElement')
     }
     
-    const text = $input.value
+    const text = $input.value.toLocaleLowerCase()
     
     const textEncrypted = text.replace(regexHash, (match) => reverseHash[match])
 
