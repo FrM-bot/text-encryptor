@@ -73,9 +73,10 @@ textarea {
     /* margin: auto; */
     /* background-color: red; */
   }
-  .card__output {
-    padding: 0;
-  }
+  /* .card__output {
+    padding-inline-end: 1rem;
+    padding-inline-end: 1rem;
+  } */
   .max-w-lg {
     max-width: 80%;
   }
