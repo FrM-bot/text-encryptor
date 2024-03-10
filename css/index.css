@@ -1,0 +1,85 @@
+@import url('vars.css');
+@import url("normalize.css");
+@import url("utils.css");
+@import url('components.css');
+
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"),
+    url("/public/fronts/inter-latin-400-normal.woff") format("woff"),
+    url("/public/fronts/inter-latin-700-normal.woff") format("woff");
+}
+
+html {
+  background-color: rgb(var(--light-blue-200) / 1);
+  margin: 0;
+  font-family: Inter;
+}
+
+main {
+  padding: 2rem;
+  min-height: calc(100vh - 4rem);
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 390px;
+  gap: 2rem;
+  /* resize: none; */
+  /* max-width: 23rem;
+    max-height: 23rem; */
+  /* width: 100%;
+    height: 23ch; */
+}
+
+textarea {
+  border: none;
+  resize: none;
+  outline: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  resize: none;
+  height: 23ch;
+  /* width: 100%; */
+  position: relative;
+  width: max-content;
+  /* flex: 1; */
+  flex: 1 1 0%;
+  /* display: inline-block; */
+}
+
+/* #section_input {
+  flex: 1 1 0%;
+} */
+/* #decrypt_section {
+  width: 360px;
+} */
+@media (width <= 1100px) {
+  main {
+    grid-template-columns: 1fr;
+    /* flex-direction: column; */
+  }
+  .person {
+    display: none;
+  }
+  #decrypt_section {
+    /* max-width: var(--max-w-lg); */
+    /* width: max-content; */
+    /* width: max-content; */
+    /* width: 100%; */
+    /* display: inline-block; */
+    /* width: 100%; */
+    /* margin: auto; */
+    /* background-color: red; */
+  }
+  .card__output {
+    padding: 0;
+  }
+  .max-w-lg {
+    max-width: 80%;
+  }
+}
+
+@media (width <= 720px) {
+  .max-w-lg {
+    max-width: 100%;
+  }
+}

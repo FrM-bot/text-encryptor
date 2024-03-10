@@ -1,0 +1,26 @@
+.button {
+  border-radius: 14px;
+  padding: 16px;
+  border: rgb(var(--dark-blue-500) / 1) 1px solid;
+  cursor: pointer;
+  background-color: white;
+}
+
+.button__primary {
+  background-color: rgb(var(--dark-blue-500) / 1);
+  border: rgb(var(--dark-blue-500) / 1) 1px solid;
+  color: rgb(var(--light-blue-100));
+}
+
+.button__secondary {
+  background-color: rgb(var(--light-blue-300) / 1);
+  border: rgb(var(--dark-blue-500) / 1) 1px solid;
+}
+
+.card {
+  background-color: white;
+  /* padding: 2rem; */
+}
+.card__output {
+  padding: 2rem;
+}

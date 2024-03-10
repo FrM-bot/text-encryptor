@@ -1,0 +1,23 @@
+:root {
+  --dark-blue-100: 96 158 212;
+  --dark-blue-200: 53 110 169;
+  --dark-blue-300: 10 56 113;
+  --dark-blue-400: 7 43 97;
+  --dark-blue-500: 5 32 81;
+
+  --light-blue-100: 243 245 252;
+  --light-blue-200: 239 241 250;
+  --light-blue-300: 233 236 248;
+  --light-blue-400: 170 178 213;
+  --light-blue-500: 117 127 178;
+
+  --gray-100: 206 212 218;
+  --gray-200: 173 181 189;
+  --gray-300: 134 142 150;
+  --gray-400: 73 80 87;
+  --gray-500: 52 58 64;
+
+  --shadow-md: 0px 10px 32px -5px rgb(0 0 0 / 0.1);
+
+  --max-w-lg: 38rem;
+}
