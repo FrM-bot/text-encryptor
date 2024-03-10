@@ -59,15 +59,13 @@ $buttonDecrypt.addEventListener('click', (e) => {
     
     const text = $input.value.toLocaleLowerCase()
     
-    const textEncrypted = text.replace(regexHash, (match) => reverseHash[match])
+    const textDecrypted = text.replace(regexHash, (match) => reverseHash[match])
 
-    $p.innerText = textEncrypted
+    $p.innerText = textDecrypted
     
     $noTextMessage.style.display = 'none'
 
     $outputTextContainer.style.display = 'block'
-    
-    alert(textEncrypted)
 })
 
 
