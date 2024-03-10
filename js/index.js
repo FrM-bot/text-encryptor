@@ -48,8 +48,6 @@ $buttonEncrypt.addEventListener('click', (e) => {
     $noTextMessage.style.display = 'none'
     
     $outputTextContainer.style.display = 'block'
-    
-    alert(textEncrypted)
 })
 
 const regexHash = new RegExp(Object.keys(reverseHash).join('|'), 'g')
