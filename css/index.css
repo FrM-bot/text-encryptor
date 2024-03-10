@@ -36,11 +36,14 @@ textarea {
   outline: none;
   padding: 1rem;
   border-radius: 1rem;
+  background-color: transparent;
   resize: none;
   height: 23ch;
   /* width: 100%; */
   position: relative;
   width: max-content;
+  color: rgb(var(--dark-blue-400));
+  font-size: larger;
   /* flex: 1; */
   flex: 1 1 0%;
   /* display: inline-block; */
