@@ -36,7 +36,7 @@ textarea {
   outline: none;
   padding: 1rem;
   border-radius: 1rem;
-  background-color: transparent;
+  background-color: white;
   resize: none;
   height: 23ch;
   /* width: 100%; */
